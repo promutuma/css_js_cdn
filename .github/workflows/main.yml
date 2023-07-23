@@ -11,6 +11,6 @@ jobs:
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ${{ secrets.CDN_SERVER }}
+        server: ftp.eelam.co.ke
         username: ${{ secrets.CDN_USER }}
         password: ${{ secrets.CDN_PASSWORD }}
